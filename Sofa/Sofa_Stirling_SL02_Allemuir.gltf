@@ -1,0 +1,352 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1440,
+      "max": [
+        0.9155729413032532,
+        0.8735849857330322,
+        0.4731605648994446
+      ],
+      "min": [
+        -0.9141128659248352,
+        0.1575610190629959,
+        -0.4542640447616577
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 6936,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1440,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1440,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 86,
+      "max": [
+        0.8894175887107849,
+        0.18318361043930054,
+        0.43210315704345703
+      ],
+      "min": [
+        -0.8951981067657471,
+        -0.005327547900378704,
+        -0.45234212279319763
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 210,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 86,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 86,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Modov11.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 17280
+    },
+    {
+      "buffer": 0,
+      "byteLength": 27744,
+      "byteOffset": 17280
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17280,
+      "byteOffset": 45024
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11520,
+      "byteOffset": 62304
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1032,
+      "byteOffset": 73824
+    },
+    {
+      "buffer": 0,
+      "byteLength": 840,
+      "byteOffset": 74856
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1032,
+      "byteOffset": 75696
+    },
+    {
+      "buffer": 0,
+      "byteLength": 688,
+      "byteOffset": 76728
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 77416,
+      "uri": "Sofa_Stirling_SL02_Allemuir.bin"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "Camera",
+      "perspective": {
+        "yfov": 0.8726,
+        "znear": 0.01
+      },
+      "type": "perspective"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "uri": "Fabric_Upholstery_GreyModified.png"
+    },
+    {
+      "mimeType": "image/png",
+      "uri": "Fabric_Upholstery_Grey_NRMmod.png"
+    },
+    {
+      "mimeType": "image/png",
+      "uri": "Sofa_Stirling_SL02_Allemuir_AO.png"
+    },
+    {
+      "mimeType": "image/png",
+      "uri": "steelplaincarbon_diffusemap.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material-1",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.5
+      }
+    },
+    {
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "lambert1",
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.20000000298023224,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.25,
+        "roughnessFactor": 1.0
+      }
+    },
+    {
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "lEGS",
+      "occlusionTexture": {
+        "index": 4,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "metallicRoughnessTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0.550000011920929
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 1,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 5,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "name": "Sofa_Stirling_SL02_Allemuir"
+    },
+    {
+      "mesh": 0,
+      "name": "Sofa_Stirling_SL02_Allemuir_Seat"
+    },
+    {
+      "mesh": 1,
+      "name": "Sofa_Stirling_SL02_Allemuir_Feet2"
+    },
+    {
+      "camera": 0,
+      "matrix": [
+        0.9992329478263855,
+        -0.03771279752254486,
+        0.010546562261879444,
+        0.0,
+        0.0374830923974514,
+        0.8431469202041626,
+        -0.5363751649856567,
+        0.0,
+        0.011335905641317368,
+        0.5363590717315674,
+        0.8439137935638428,
+        0.0,
+        0.2009522020816803,
+        2.0937178134918213,
+        2.74092435836792,
+        1.0
+      ],
+      "name": "Camera"
+    },
+    {
+      "name": "Texture Group"
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        3,
+        4
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Fabric_Upholstery_GreyModified ",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "Fabric_Upholstery_Grey_NRMmod ",
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "name": "Sofa_Stirling_SL02_Allemuir_AO ",
+      "sampler": 2,
+      "source": 2
+    },
+    {
+      "name": "steelplaincarbon_diffusemap (2) ",
+      "sampler": 3,
+      "source": 3
+    },
+    {
+      "name": "Sofa_Stirling_SL02_Allemuir_AO  (2)",
+      "sampler": 4,
+      "source": 2
+    }
+  ]
+}
